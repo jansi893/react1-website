@@ -16,12 +16,12 @@ const App = () => {
       <Content />
 <Marque />
 <Cards1 />
-<h1 className='text-zinc-600 text-xl'>Our works</h1>
+<h1 className='text-zinc-600 mt-6 lg:mt-0 text-xl'>Our works</h1>
 <hr className='border-gray-200' />
 <Selected />
-<h1 className='text-2xl  text-gray-500 mt-[20vh]'>OUR VALUES</h1>
-<OurValue />
+<h1 className='lg:text-2xl text-xl text-gray-500 mt-[20vh]'>OUR VALUES</h1>
 <hr className='border-gray-200' />
+<OurValue />
 <Last />
     </div>
   )

@@ -30,12 +30,12 @@ function Cards1() {
   ];
 
   return (
-    <div className='h-[65vh]'>
-          <div className="flex justify-between mt-15">
+    <div className='lg:h-[65vh]'>
+          <div className="lg:flex lg:flex-row flex flex-col gap-5 justify-between mt-15">
       {cardData.map((card, index) => (
         <div
           key={index}
-          className="card1 h-[45vh] w-[18vw] rounded-xl px-6 py-14 flex flex-col justify-between bg-[#F8F8F8] shadow-md hover:shadow-lg transition-shadow"
+          className="card1 h-[45vh] lg:w-[18vw] rounded-xl px-6 py-14 flex flex-col justify-between bg-[#F8F8F8] shadow-md hover:shadow-lg transition-shadow"
         >
           <h1 className="text-3xl font-semibold">{card.title}</h1>
           <p className="text-zinc-500">{card.description}</p>

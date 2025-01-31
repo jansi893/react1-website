@@ -26,11 +26,11 @@ const cardData = [
 
 function Card2() {
   return (
-    <div className="cards flex gap-6">
+    <div className="cards flex  flex-col lg:flex-row  lg:flex gap-6">
       {cardData.map((card, index) => (
         <div
           key={index}
-          className={`h-[50vh] flex flex-col items-start justify-between p-10 w-[17vw] rounded-xl`}
+          className={`h-[50vh] flex flex-col items-start justify-between p-10 lg:w-[17vw] rounded-xl`}
           style={{ backgroundColor: card.bgColor }}
         >
           <div className="flex flex-col gap-5">

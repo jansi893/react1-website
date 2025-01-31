@@ -25,7 +25,7 @@ const data = [
 
 function Selected2() {
   return (
-    <div className="grid grid-cols-2 gap-10 p-5">
+    <div className="lg:grid flex flex-col lg:grid-cols-2 gap-10 lg:p-5">
       {data.map((item, index) => (
         <div
           key={index}
@@ -43,7 +43,7 @@ function Selected2() {
           {/* Text Section */}
           <div className="info flex justify-between items-center p-5 bg-white">
             <h1 className="text-xl text-zinc-500">{item.title}</h1>
-            <button className="px-5 py-1.5 border text-zinc-700 rounded-full hover:bg-black hover:text-white duration-300">
+            <button className="lg:px-5 px-3 py-1 lg:py-1.5 border text-zinc-700 rounded-full hover:bg-black hover:text-white duration-300">
               {item.buttonText}
             </button>
           </div>
