@@ -17,7 +17,7 @@ const OurValue = () => {
                     </div>
                 </div>
             </div>
-            <h1 className='mt-10 lg:mt-0 text-2xl text-gray-600'>Footer</h1>
+            <h1 className='mt-24 lg:mt-0 text-2xl text-gray-600'>Footer</h1>
 
         </div>
     )
