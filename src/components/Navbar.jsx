@@ -24,7 +24,7 @@ const Navbar = () => {
         <a className="hidden lg:flex relative group" href="#">Pages
         <span className='absolute left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full'></span>
         </a>
-        <a className="hidden lg:flex flex items-center gap-4 relative group" href="#">Cart 
+        <a className="hidden lg:flex items-center gap-4 relative group" href="#">Cart 
           <span className='absolute left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full'></span>
           <span className="px-1 rounded-full bg-[#F8EDE3]">0</span></a>
         <a className="lg:px-4 lg:py-2 px-2 py-1 border rounded-full hover:bg-black hover:text-white duration-300" href="#">Get in Touch</a>
